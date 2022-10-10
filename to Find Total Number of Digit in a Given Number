@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num, tim=0;
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    while(num>0)
+    {
+        tim++;
+        num = num/10;
+    }
+    printf("\nTotal number of Digit = %d", tim);
+    getch();
+    return 0;
+}
