@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i;
+    float mark, sum=0, perc;
+    printf("Enter Marks obtained in 5 Subjects (Out of 100): ");
+    for(i=0; i<5; i++)
+    {
+        scanf("%f", &mark);
+        sum = sum+mark;
+    }
+    perc = (sum/500)*100;
+    printf("\nPercentage Mark = %0.2f%c", perc, 37);
+    getch();
+    return 0;
+}
