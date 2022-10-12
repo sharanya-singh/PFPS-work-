@@ -6,6 +6,7 @@ struct student {
 } s[5];
 
 int main() {
+printf("RA2211042010006")
     int i;
     printf("Enter information of students:\n");
 
