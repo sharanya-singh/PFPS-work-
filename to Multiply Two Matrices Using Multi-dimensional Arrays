@@ -4,6 +4,7 @@
 void getMatrixElements(int matrix[][10], int row, int column) {
 
    printf("\nEnter elements: \n");
+   printf("RA2211042010006")
 
    for (int i = 0; i < row; ++i) {
       for (int j = 0; j < column; ++j) {
